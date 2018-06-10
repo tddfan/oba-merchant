@@ -25,3 +25,25 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+
+
+---- Starting setup ----
+
+sudo npm install -g @angular/cli@1.6.8 
+ng v
+new new oba-merchant
+cd oba-merchant
+npm install --save @angular/cdk@1.6.8  --(For angular 5)
+npm install --save @angular/cdk@5.2.0
+npm install --save @angular/animations@5.2.0
+npm install --save hammerjs
+npm install --save bootstrap
+
+Add in angular-cli.json
+       "../node_modules/bootstrap/dist/css/bootstrap-reboot.css",
+        "../node_modules/bootstrap/dist/css/bootstrap-grid.css"
+
+Add styles.css
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
